@@ -1,0 +1,12 @@
+<?php
+    include 'bak_connection.php';
+
+    if($_SERVER["REQUEST_METHOD"]=="POST"){
+        $id=$_POST['id'];
+        $sql="UPDATE `adopt` SET `status`='Declined' WHERE `p_id`= '$id'";
+        $result=mysqli_query($conn,$sql);
+        echo "<script>
+        window.location.href='admin_adopt_request.php';
+        </script>";
+    }
+?>

@@ -1,0 +1,83 @@
+/* Footer */
+footer {
+    font-size: 24px;
+    margin: -55px 0px -100px 0px;
+}
+
+/* footer image and description */
+#footer-img {
+    /* height: 140px;
+    width: 300px; */
+    height: 120px;
+    width: 210px;
+}
+
+.footer-description {
+    color: white;
+    padding: 0px 10px 10px 10px;
+    line-height: 1.6;
+}
+
+/* footer quick links */
+.footer-links h3 {
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.footer-links {
+    margin-top: 42px;
+}
+
+footer ul {
+    line-height: 1.6;
+    list-style: none;
+}
+
+footer ul a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    opacity: 0.8;
+}
+
+footer ul a:hover {
+    color: rgb(248, 188, 48);
+    text-decoration: underline;
+}
+
+/* social media images */
+.social img {
+    width: 46px;
+    height: 46px;
+    margin: 0 8px;
+    padding: 8px;
+    border-radius: 30%;
+    border: 2px solid rgb(248, 188, 48);
+    box-shadow: 0.5px 0.5px 1px 1px rgb(248, 188, 48);
+}
+
+
+/* Text,email and textarea tags */
+input[type="text"],input[type="email"],textarea {
+    width:300px;
+    margin:5px 0px 5px 0px;
+    padding: 3px 0px 3px 15px;
+    border: 2px solid rgb(248, 188, 48);
+    box-shadow: 0.5px 0.5px 1px 1px rgb(248, 188, 48);
+    border-radius: 10px;
+    background-color: transparent;
+    color:white;
+}
+
+/* Submit for contact us */
+input[type="submit"] {
+    width:100px;
+    /* margin:0px 0px 0px 200px; */
+    /* padding:5px; */
+    background-color: black;
+    color:white;
+    border:3px solid rgb(248, 188, 48);
+    border-radius: 10px;
+    cursor: pointer;
+    /* float:right; */
+}
